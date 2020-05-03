@@ -17,8 +17,6 @@ res = api.IPlayerService.GetOwnedGames(
 games = res.get('response').get('games')
 
 for game in games:
-    print(game)
-
     appid = game.get('appid')
     defaults = {
         'name': game.get('name'),

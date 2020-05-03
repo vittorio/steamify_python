@@ -9,6 +9,7 @@ gevent==20.4.0
 gevent-eventemitter==2.1
 greenlet==0.4.15
 idna==2.9
+Pillow==7.1.2
 pip-autoremove==0.9.1
 protobuf==3.11.3
 psycopg2-binary==2.8.5
